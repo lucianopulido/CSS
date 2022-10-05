@@ -1,0 +1,29 @@
+@font-face {
+  font-family: RobotoFuenteCustom;
+  src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+
+h1 {
+  font-family: RobotoFuenteCustom;
+  font-style: normal;
+  text-transform: uppercase;
+  /* colores */
+
+  /* colores del sistema */
+  color: mediumpurple;
+
+  /* colores hexadecimales */
+  color: #1E3A8A
+}
+
+h3 {
+  font-family: "Comic Sans MS";
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
