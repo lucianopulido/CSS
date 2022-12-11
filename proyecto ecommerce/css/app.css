@@ -1,0 +1,81 @@
+/*Esto le aplica el box-sizing a todo*/
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/*---------------------------------------*/
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    color: #000000;
+}
+
+h1 span {
+    color: #037bc0
+}
+
+h2 span {
+    color: green;
+}
+
+section h2 {
+
+}
+
+.navegacion {
+    background-color: #e1e1e1;
+}
+
+.navegacion a {
+    text-transform: uppercase;
+    color: #037bc0;
+    font-weight: bold;
+
+}
+
+/** Box Model **/
+
+/**
+ box-sizing: border-box ---> border-boxle dice al navegador que tenga en cuenta cualquier borde y
+ relleno en los valores que especifique para el ancho y la altura de un elemento. Si establece el ancho de un elemento en 100 píxeles,
+ esos 100 píxeles incluirán cualquier borde o relleno que haya agregado, y el cuadro de contenido se reducirá para absorber ese ancho adicional
+  **/
+.sobre-nosotros {
+    background-color: red;
+    width: 200px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.nombre-sitio {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.hero {
+    background-image: url(../img/principal.jpg);
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedor-navegacion {
+    border-top: 1px solid #e1e1e1;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0px auto 0px auto;
+}
+
+.navegacion-principal {
+    padding: 20px 0px 20px 0px;
+}
