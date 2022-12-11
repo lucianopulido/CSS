@@ -48,7 +48,6 @@ section h2 {
  esos 100 píxeles incluirán cualquier borde o relleno que haya agregado, y el cuadro de contenido se reducirá para absorber ese ancho adicional
   **/
 .sobre-nosotros {
-    background-color: red;
     width: 200px;
     padding: 25px;
     box-sizing: border-box;
@@ -78,4 +77,7 @@ section h2 {
 
 .navegacion-principal {
     padding: 20px 0px 20px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
