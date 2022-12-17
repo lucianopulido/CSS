@@ -7,6 +7,11 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+
 /*---------------------------------------*/
 a {
     text-decoration: none;
@@ -26,6 +31,11 @@ h2 span {
 }
 
 section h2 {
+
+}
+
+img {
+    width: 100%;
 
 }
 
@@ -81,3 +91,28 @@ section h2 {
     flex-direction: row;
     justify-content: space-between;
 }
+
+.listado-categorias {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 18px;
+}
+
+.categorias h2 {
+    text-align: center;
+}
+
+.categoria a {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.categoria a:hover {
+    background-color: #037bc0;
+    color: #ffffff;
+}
+
+
